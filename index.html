@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>keditor</title>
+</head>
+<body>
+<div class="nav">
+    <h1>k-editor</h1>
+</div>    
+<div class="container">
+    <div class="left">
+        <div class="controls">
+            <label for="blur">Blur</label>
+            <input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+            <label for="brightness">Brightness</label>
+            <input type="range" name="brightness" min="1" max="100" value="50"  data-sizing="%">
+            <label for="contrast">Contrast</label>
+            <input type="range" name="contrast" min="0" max="200" value="1" data-sizing="%">
+            <label for="grayscale">Grayscale</label>
+            <input type="range" name="grayscale" min="0" max="100"  value="1" data-sizing="%">
+            <label for="saturate">Saturate</label>
+            <input type="range" name="saturate" min="0" max="100"  value="100" data-sizing="%">
+            <label for="invert">Invert</label>
+            <input type="range" name="invert" min="0" max="100"  value="0" data-sizing="%">
+
+        </div>
+         
+    </div>
+    <div class="right">
+      <div class="img-container">
+        <input type="file" accept="image/jpeg, image/png, image/jpg" value="Upload" >
+        <output></output>
+      </div>
+    </div>
+</div> 
+
+<script src="index.js"></script>
+</body>
+</html>
