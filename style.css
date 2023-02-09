@@ -45,6 +45,7 @@ filter: blur(var(--blur)) brightness(var(--brightness)) contrast(var(--contrast)
     justify-content: center;
     align-items: center;
     padding: 25px;
+    margin-top: 20px;
 }
 
 .container .left{
